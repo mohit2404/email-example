@@ -1,0 +1,17 @@
+{
+  "name": "gmail-structured-data-emails",
+  "version": "1.0.0",
+  "description": "Node.js project to send emails with Gmail structured data markup for appointment and hotel booking cards",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["gmail", "structured-data", "email", "nodemailer", "json-ld"],
+  "author": "Mohit <mk.mohit2440@gmail.com>",
+  "license": "MIT"
+}
