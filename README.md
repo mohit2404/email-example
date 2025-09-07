@@ -56,12 +56,12 @@ npm test
 ```
 gmail-structured-data-emails/index.js                    # Main entry point with Nodemailer setup
 templates/
-â”‚   â”œâ”€â”€ appointmentBooking.js   # Appointment email template with JSON-LD
-â”‚   â””â”€â”€ hotelBooking.js        # Hotel booking email template with JSON-LD
-â”œâ”€â”€ test.js                    # Test file with example data
+appointmentBooking.js   # Appointment email template with JSON-LD
+hotelBooking.js        # Hotel booking email template with JSON-LD
+test.js                    # Test file with example data
 package.json               # Project dependencies
-â”œâ”€â”€ .env.example              # Environment variables template
-â””â”€â”€ README.md                 # This file
+.env.example              # Environment variables template
+README.md                 # This file
 ```
 
 ## Template Files
@@ -90,7 +90,7 @@ This file contains the HTML template with JSON-LD structured data for hotel book
 
 1. Enable 2-factor authentication on your Google account
 2. Go to [Google Account Settings](https://myaccount.google.com/)
-3. Security â†’ 2-Step Verification â†’ App passwords
+3. Security > 2-Step Verification > App passwords
 4. Generate an app password for "Mail"
 5. Use this 16-character password in your `.env` file
 
@@ -139,12 +139,12 @@ When recipients open your emails in Gmail, they'll see interactive cards above t
 - [Gmail App Passwords Setup](https://support.google.com/accounts/answer/185833)
 - [Nodemailer Documentation](https://nodemailer.com/)
 
-## ðŸ“„ License
+## License
 
 MIT License - free to use for personal and commercial purposes.
 
 ---
 
-**Happy Coding! ðŸš€**
+**Happy Coding!**
 
 Send beautiful, interactive emails that your users will love!
